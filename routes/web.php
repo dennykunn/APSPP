@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::get('/loginAdmin', function () {
+    return view('loginAdmin');
+});
+Route::get('/loginSiswa', function () {
+    return view('loginSiswa');
+});
+Route::get('/register', function () {
+    return view('register');
+});
+
+// use App\Http\Controllers\Main;
+
+// Route::get('/', [Main::class, 'index']);
+// Route::get('/loginAdmin', [Main::class, 'loginAdmin']);
