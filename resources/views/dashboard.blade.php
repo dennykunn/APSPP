@@ -2,7 +2,7 @@
 @section('konten')
 <div class="col-span-5 bg-gray-200 p-3">
     <div class="flex justify-between items-center">
-        <h1 class="text-2xl">Dashboard</h1>
+        <h1 class="text-2xl">Dashboardd</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
