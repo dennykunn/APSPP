@@ -12,18 +12,56 @@ class Main extends Controller
     {
         return view('index');
     }
-    public function about()
+    public function loginAdmin()
     {
-        return view('about', [
-            'nama' => 'Denny Firmansyah',
-            'alamat' => 'Jl. Bangun Sarti KM 8 Mekarsari'
-        ]);
+        return view('loginAdmin');
     }
-    public function petugas()
+    public function home()
     {
-        $data = DB::table('petugas')->get();
-        return view('petugas', [
-            'petugas' => $data
-        ]);
+        return view('home');
+    }
+    public function loginSiswa()
+    {
+        return view('loginSiswa');
+    }
+    public function dashboard()
+    {
+        return view('dashboard');
+    }
+    public function register()
+    {
+        return view('register');
+    }
+    public function dataSiswa()
+    {
+        return view('dataSiswa');
+    }
+    public function dashboardTes()
+    {
+        return view('dashboardTes');
+    }
+    public function profilTes()
+    {
+        return view('profilTes');
+    }
+    public function laporan()
+    {
+        return view('laporan');
+    }
+    public function dataKelas()
+    {
+        return view('dataKelas');
+    }
+    public function dataPetugas()
+    {
+        return view('dataPetugas');
+    }
+    public function dataTransaksi()
+    {
+        return view('dataTransaksi');
+    }
+    public function dataHistory()
+    {
+        return view('dataHistory');
     }
 }

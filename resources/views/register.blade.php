@@ -36,7 +36,7 @@
         </p>
     </div>
     <div class="flex flex-col items-center mt-12">
-        <button class="w-32 py-1 rounded-full border-2 hover:border-pink-500 border-rose-500 hover:bg-rose-500 transtition duration-300 hover:bg-gradient-to-r from-rose-500 via-pink-600 to-violet-500 text-rose-500 font-semibold hover:text-white">LOGIN</button>
+        <button class="w-32 py-1 rounded-full border-2  hover:ring ring-pink-500 ring-offset-2 ring-offset-pink-100 border-rose-500 hover:bg-rose-500 transtition duration-300 hover:bg-gradient-to-r from-rose-500 via-pink-600 to-violet-500 text-rose-500 font-semibold hover:text-white">LOGIN</button>
         <a class="text-sm text-rose-500 mt-2" href="\loginSiswa">Kembali?</a>
     </div>
 </form>
